@@ -1,0 +1,41 @@
+{
+    "image": "mcr.microsoft.com/vscode/devcontainers/typescript-node:18",
+    "hostRequirements": {
+      "cpus": 4,
+      "memory": "8gb",
+      "storage": "32gb"
+    },
+    "customizations": {
+      "vscode": {
+        "extensions": [
+          "GitHub.codespaces",
+          "GitHub.copilot",
+          "GitHub.vscode-pull-request-github",
+          "VisualStudioExptTeam.vscodeintellicode",
+          "amazonwebservices.aws-toolkit-vscode",
+          "dbaeumer.vscode-eslint",
+          "esbenp.prettier-vscode",
+          "feiskyer.chatgpt-copilot",
+          "mhutchie.git-graph",
+          "ms-python.autopep8",
+          "ms-python.pylint",
+          "ms-python.python",
+          "ms-python.vscode-pylance",
+          "ms-vsliveshare.vsliveshare",
+          "ms-vsliveshare.vsliveshare-pack",
+          "ms-vscode.vscode-typescript-next",
+          "pflannery.vscode-versionlens",
+          "rangav.vscode-thunder-client",
+          "rvest.vs-code-prettier-eslint",
+          "statelyai.stately-vscode",
+          "streetsidesoftware.code-spell-checker",
+          "wix.vscode-import-cost"
+        ]
+      }
+    },
+    "features": {
+      "ghcr.io/devcontainers/features/python:1": {
+        "version": "3.9"
+      }
+    }
+  }
