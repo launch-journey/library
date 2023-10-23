@@ -13,7 +13,7 @@ branding:
 landing:
   tagline: One place for your organization's documents.
   viewAll: View All
-  quickLink: <a href="/get-started">Get Started.</a>
+  quickLink: <a href="/how-to-use-library">Get Started.</a>
   modules:
     - tag: team
       label: Find by team
